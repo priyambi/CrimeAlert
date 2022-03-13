@@ -27,7 +27,7 @@ const TabNavigation = () => {
           options={{headerShown: false}}
         />
         <Stack.Screen
-          name="Bottomtab"
+          name="BottomTab"
           component={BottomTab}
           options={{headerShown: false}}
         />
