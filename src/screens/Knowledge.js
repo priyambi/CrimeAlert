@@ -1,14 +1,26 @@
 import React from 'react';
-import {View, Text} from 'react-native';
-import FlipCard from 'react-native-flip-card';
+import {View, StyleSheet,Text,Dimensions} from 'react-native';
 const Knowledge = () => {
   return (
-    <View>
-      <Text>NEWS/BLOGS</Text>
-      <Text>EMERGENCY NUMBERS</Text>
-      <Text>MEDICAL EMERGENCY</Text>
+    <View style={styles.container}>
+      <Text style={styles.header}>NEWS/BLOGS</Text>
+      <Text style={styles.header}>EMERGENCY NUMBERS</Text>
+      <Text style={styles.header}>MEDICAL EMERGENCY</Text>
     </View>
   );
 };
 
 export default Knowledge;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#232124',
+  },
+  header:{
+    color:'white',
+    fontSize:22,
+    marginLeft:20,
+  }
+
+})
