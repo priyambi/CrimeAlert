@@ -20,7 +20,7 @@ const BottomTab = () => {
           tabBarIcon: () => (
             <MaterialCommunityIcons
               name="monitor-dashboard"
-              color="black"
+              color="#e81923"
               size={25}
             />
           ),
@@ -36,7 +36,7 @@ const BottomTab = () => {
           tabBarIcon: () => (
             <MaterialCommunityIcons
               name="image-search-outline"
-              color="black"
+              color="#e81923"
               size={25}
             />
           ),
@@ -51,7 +51,7 @@ const BottomTab = () => {
           tabBarIcon: () => (
             <MaterialCommunityIcons
               name="wechat"
-              color="black"
+              color="#e81923"
               size={25}
             />
           ),
@@ -66,7 +66,7 @@ const BottomTab = () => {
           tabBarIcon: () => (
             <MaterialCommunityIcons
               name="note-text-outline"
-              color="black"
+              color="#e81923"
               size={25}
             />
           ),

@@ -99,7 +99,7 @@ const Report = () => {
         /> */}
           <SelectDropdown
             data={crimes}
-            style={{height:5}}
+            buttonStyle={{height:23}}
             dropdownBackgroundColor='white's
             defaultButtonText='Crime Type'
             onSelect={(selectedItem, index) => {

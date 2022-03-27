@@ -70,14 +70,16 @@ const Main = () => {
             longitude: 77.5946,
           }}
           title="Empire Restaurant"
-          image={require('../assets/marker.png')}></Marker>
+          image={require('../assets/marker.png') }style={{width: 5, height: 5}} ></Marker>
         <Marker
           coordinate={{
             latitude: 22.5726,
             longitude: 88.3639,
           }}
           title="Fresh Aisle"
-          image={require('../assets/marker.png')}></Marker>
+          
+          
+          image={require('../assets/marker.png')} style={{width: 5, height: 5}}></Marker>
       </MapView>
     </View>
   );

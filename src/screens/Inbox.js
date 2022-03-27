@@ -259,7 +259,7 @@ const styles = StyleSheet.create({
 
   card: {
     height: 100,
-    width: 370,
+    width: 325,
     paddingLeft: 10,
     margin: 15,
     marginLeft: 15,
